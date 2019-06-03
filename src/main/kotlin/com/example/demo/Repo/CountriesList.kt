@@ -1,11 +1,15 @@
-package com.example.demo
+package com.example.demo.Repo
 
+import com.example.demo.Models.Country
 import java.util.ArrayList
 
-class CountriesList {
-    var countryList = ArrayList<Country>()
+object CountriesList {
+
+    val countryList = mutableListOf<Country>()
 
     init {
+        // Name, Population, Land Mass in Km2, Median Age
+
         countryList.add(Country("China", 1420062022, 9388211, 39))
         countryList.add(Country("India", 1368737513, 2973190, 28))
         countryList.add(Country("U.S.", 329093110, 9147420, 38))
@@ -208,4 +212,5 @@ class CountriesList {
         countryList.add(Country("Antigua and Barbuda", 104084, 440, 32))
         countryList.add(Country("Seychelles", 95702, 460, 36))
     }
+
 }
