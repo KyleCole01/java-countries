@@ -1,4 +1,4 @@
-package com.example.demo.Models
+package com.example.demo.models
 
 class Country(var name: String, var population: Int, var landMass: Int, var medianAge: Int){
     override fun toString(): String {

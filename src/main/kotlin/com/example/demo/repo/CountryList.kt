@@ -1,9 +1,8 @@
-package com.example.demo.Repo
+package com.example.demo.repo
 
-import com.example.demo.Models.Country
-import java.util.ArrayList
+import com.example.demo.models.Country
 
-object CountriesList {
+object CountryList {
 
     val countryList = mutableListOf<Country>()
 
